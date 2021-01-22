@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.monresto.acidlabs.monresto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UI.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.RestaurantDetails.RestaurantDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.User.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.User.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Maps.MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.RestaurantDetails.Order.OrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Profile.Settings.ProfileSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Profile.Address.NewAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UI.FAQ.FAQActivity" />
+        <activity
+            android:name=".UI.Cart.CartActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".UI.Checkout.CheckoutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.User.ForgetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.FAQ.FAQAnswerActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".UI.Profile.Settings.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Profile.Settings.AddressSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Profile.Address.EditAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.User.SelectAddressActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/RoundedDialog" />
+        <activity
+            android:name=".UI.Homepage.HomepageActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".UI.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNewTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.Main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Main.FilterActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/RoundedDialog" />
+        <activity
+            android:name=".UI.Delivery.DeliveryMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Checkout.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Homepage.Snacks.SnacksActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Delivery.DeliveryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.Checkout.SemsemPayTutotActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="zendesk.support.guide.HelpCenterActivity"
+            android:theme="@style/ZendeskActivityDefaultTheme" />
+
+        <activity
+            android:name="zendesk.support.guide.ViewArticleActivity"
+            android:theme="@style/ZendeskActivityDefaultTheme" />
+
+        <activity
+            android:name="zendesk.support.request.RequestActivity"
+            android:theme="@style/ZendeskActivityDefaultTheme" />
+
+        <activity
+            android:name="zendesk.support.requestlist.RequestListActivity"
+            android:theme="@style/ZendeskActivityDefaultTheme" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!--<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCdaBpOD61ooJuwk0r9HvQgeFkxor742Ks" />-->
+        <!--
+ Fixes google maps on Android P
+         TODO: Remove after google fixes this
+        -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+    </application>
+
+</manifest>

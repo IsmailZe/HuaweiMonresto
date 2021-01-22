@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">MonResto</string>
+
+    <string name="facebook_app_id">1428780794089712</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+
+    <string name="internet_connection_problem">Veuillez vérifier votre connexion</string>
+    <string name="validate_btn">Valider</string>
+    <string name="next_btn">Suivant</string>
+    <string name="login_already_exists">Le login ou l\'email spécifié est déja utilisé, veuillez choisir un login différent.</string>
+    <string name="empty_fields">Veuillez renseigner tout les champs.</string>
+    <string name="unmatched_passwords">Les mots de passe ne correspondent pas</string>
+    <string name="invalid_email">email invalide</string>
+    <string name="supermarch_title">Supermarchés</string>
+    <string name="supermarch_description">Faites vous livrer vos courses directement chez vous</string>
+    <string name="jibly_title">Jibly</string>
+    <string name="coursier_title">Coursier</string>
+    <string name="traiteur_title">Traiteur</string>
+    <string name="parapharmacie_title">Parapharmacie</string>
+    <string name="livrer_title">Nous livrons</string>
+    <string name="price_verification_warning_txt">Nous achetons votre commande auprès des supermarchés. En cas de changement de prix, le livreur vous présentera le ticket pour la différence.</string>
+    <string name="order_via_credit_card_options">Options de livraison</string>
+    <string name="title_confinement">Pack confinement</string>
+    <string name="description_pack">Des packs fruits et légumes, pack supermarché, packs plats faits maison en conserve</string>
+    <string name="support_technique">Support technique</string>
+    <string name="contactez_nous">Contactez nous</string>
+    <string name="made_with">made with</string>
+    <string name="in_tunis">in Tunis</string>
+
+    <string-array name="location_array">
+        <item>Maison</item>
+        <item>Bureau</item>
+        <item>Appartement</item>
+        <item>Amis</item>
+        <item>Parents</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="default_city_array">
+        <item>Tunis</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Paiement à la livraison</item>
+        <item>Paiement par carte bancaire </item>
+    </string-array>
+
+    <string-array name="payment_methods_description">
+        <item>Espèce ou SemsemPay</item>
+        <item>Recharge de votre compte SemsemPay</item>
+    </string-array>
+
+    <string-array name="purchase_unavailable_options">
+        <item>Le partenaire choisit un article équivalent</item>
+        <item>Annuler cet article</item>
+        <item>Annuler toute la commande</item>
+    </string-array>
+
+    <string-array name="delivery_time_options">
+        <item>Au plus tôt</item>
+        <item>Plus tard</item>
+        <item>Demain</item>
+    </string-array>
+
+    <string-array name="delivery_credit_card_options">
+        <item>Laisser la commande à l\'entrée de la résidence ou bureau</item>
+        <item>Laisser la commande devant la porte</item>
+        <item>Sonner</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connect">Vous devez vous connecter pour accéder à cette fonctionnalité</string>
+    <string name="semsem_introduit_le">Monresto introduit le</string>
+    <string name="label_paiement_semsem_pay">En payant par carte bancaire nous vous donnons la possibilité de charger votre porte monnaie electronique \"SemSem Pay\".</string>
+</resources>

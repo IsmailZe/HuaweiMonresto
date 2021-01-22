@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">false</item>
+
+        <item name="android:textViewStyle">@style/GoogleSansTextView</item>
+        <item name="android:tabWidgetStyle">@style/tab_text</item>
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="editTextStyle">@style/DefaultEditText</item>
+    </style>
+
+    <style name="AppNewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">false</item>
+
+        <item name="android:textViewStyle">@style/GoogleSansTextView</item>
+        <item name="android:tabWidgetStyle">@style/tab_text</item>
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="editTextStyle">@style/DefaultEditText</item>
+    </style>
+
+
+    <style name="ZendeskActivityDefaultTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Conversations drawable icon in SupportActivity -->
+
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccentDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="GoogleSansTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+        <item name="android:textColorHint">@color/colorPrimaryDarkDisabled</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DefaultButtonStyle" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="BorderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+    </style>
+
+    <style name="DefaultEditText" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DefaultTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/googlesans_regular</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="smallTextTab" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="RoundedDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/bg_rounded_activity</item>
+    </style>
+
+    <style name="DialogFullScreen" parent="DialogStyle" />
+
+    <style name="DialogStyle" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/restaurant_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewBg"
+        android:layout_width="0dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/store_bg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="100dp"
+                android:scaleType="fitXY"
+                android:transitionName="store_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/storeState"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:textAllCaps="true"
+                android:textColor="@color/browser_actions_title_color"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:transitionName="storeState"
+                app:layout_constraintEnd_toStartOf="@+id/item_store_rating"
+                app:layout_constraintStart_toStartOf="@+id/cardViewLayout"
+                app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+            <TextView
+                android:id="@+id/storeName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:transitionName="storeName"
+                app:layout_constraintEnd_toStartOf="@+id/item_store_rating"
+                app:layout_constraintStart_toStartOf="@+id/cardViewLayout"
+                app:layout_constraintTop_toBottomOf="@+id/store_bg" />
+
+            <ImageView
+                android:id="@+id/delivery_holder"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/storeName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/oval_shape" />
+
+            <TextView
+                android:id="@+id/restaurant_delivery"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/delivery_holder"
+                app:layout_constraintEnd_toEndOf="@+id/delivery_holder"
+                app:layout_constraintStart_toStartOf="@+id/delivery_holder"
+                app:layout_constraintTop_toTopOf="@+id/delivery_holder" />
+
+            <TextView
+                android:id="@+id/item_store_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="4dp"
+                android:gravity="bottom"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/storeName"
+                app:layout_constraintEnd_toStartOf="@+id/rating_smiley"
+                app:layout_constraintTop_toBottomOf="@+id/store_bg" />
+
+            <ImageView
+                android:id="@+id/rating_smiley"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="fitEnd"
+                android:tint="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="@+id/item_store_rating"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

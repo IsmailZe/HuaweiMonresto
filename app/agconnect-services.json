@@ -1,0 +1,12 @@
+{
+  "client": {
+    "cp_id": "890216000000000324",
+    "product_id": "9105385871708172545",
+    "client_id": "214509112346543104",
+    "client_secret": "D9741D4795C703BCC0857D473FCD990A23767F0C59154DDE482FE30EE60E434A",
+    "app_id": "101265261",
+    "package_name": "com.mappnet.monresto",
+    "api_key": "CgB6e3x9Wggw82kre5tCmJfpXpVj1q2wddTP3bGKbn8LFTEhaZNrG2VQPOGQdyciR4TCFSCLziopZ6wHkmIeGrPQ"
+  },
+  "configuration_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "584928869280",
+    "firebase_url": "https://monresto-dc3c1.firebaseio.com",
+    "project_id": "monresto-dc3c1",
+    "storage_bucket": "monresto-dc3c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584928869280:android:b3dab6680168d97aed02c5",
+        "android_client_info": {
+          "package_name": "com.mappnet.monresto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584928869280-q2sfmbre9tuo9k0a3fhh96qjs504bm1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mappnet.monresto",
+            "certificate_hash": "d18a1c546fc369d4f381af36f0a098f507ad044c"
+          }
+        },
+        {
+          "client_id": "584928869280-9h1ltl855muj1h81qfq2qeeua8tgtp8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU1jfmlD9rNow4-P7mkb182rK839Y0fbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584928869280-9h1ltl855muj1h81qfq2qeeua8tgtp8d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "584928869280-hnhji5n72tsmja00stn08ulff1pn3sv0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mappnet.monresto",
+                "app_store_id": "960622954"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
